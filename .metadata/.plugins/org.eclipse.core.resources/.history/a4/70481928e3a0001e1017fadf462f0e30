@@ -1,0 +1,28 @@
+package collectionsex;
+
+import java.util.ArrayList;
+
+class Product{
+	public int pid;
+	public String pname;
+	public int qty;
+	public double price;
+	public Product(int pid, String pname, int qty, double price) {
+		this.pid = pid;
+		this.pname = pname;
+		this.qty = qty;
+		this.price = price;
+	}
+
+}
+public class ComparatorDemo {
+
+	public static void main(String[] args) {
+		ArrayList<Product> products = new ArrayList<Product>();
+		products.add(new Product(100,"abc",45,450));
+		products.add(new Product(300,"xyz",55,550));
+		products.add(new Product(200,"pqr",35,650));
+
+	}
+
+}

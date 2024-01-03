@@ -1,0 +1,14 @@
+package collectionsex;
+
+public class ArraysSorting {
+
+	public static void main(String[] args) {
+		int[] arr = {20,4,68,87,21,2,90};
+		System.out.println("--without sorting Array Elements --");
+		for(int k:arr) {
+			System.out.println(k);
+		}
+
+	}
+
+}

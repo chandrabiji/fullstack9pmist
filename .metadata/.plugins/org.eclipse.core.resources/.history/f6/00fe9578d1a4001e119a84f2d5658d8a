@@ -1,0 +1,19 @@
+package regularexpresions;
+
+import java.util.Scanner;
+import java.util.regex.Pattern;
+
+public class StudentData {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String sno = sc.next();
+		while(!Pattern.matches("[0-9]{4}", sno)) {
+			System.err.println("Please Enter Student Number must be 4 digts ");
+			sno = sc.next();
+		}
+		System.out.println("Student Id     :   "+Integer.parseInt(sno));
+
+	}
+
+}

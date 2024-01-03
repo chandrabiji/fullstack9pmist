@@ -1,0 +1,10 @@
+package com.pms.main;
+
+public class ProductManagement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
